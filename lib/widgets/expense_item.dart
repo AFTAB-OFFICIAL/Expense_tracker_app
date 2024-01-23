@@ -14,7 +14,7 @@ class ExpenseItem extends StatelessWidget {
             Text(
               expense.title.toString(),
             ),
-            SizedBox(
+           const  SizedBox(
               height: 4,
             ),
             Row(
@@ -24,7 +24,7 @@ class ExpenseItem extends StatelessWidget {
                 Row(
                   children: [
                     Icon(categoryIcon[expense.category]),
-                    SizedBox(
+                   const  SizedBox(
                       width: 8,
                     ),
                     Text(expense.formattedDate),

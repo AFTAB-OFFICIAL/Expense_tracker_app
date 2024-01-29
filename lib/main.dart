@@ -2,7 +2,7 @@ import 'package:expense_tracker/expenses.dart';
 import 'package:flutter/material.dart';
 
 var kColorScheme = ColorScheme.fromSeed(
-  seedColor: Color.fromARGB(
+  seedColor: const Color.fromARGB(
     255,
     96,
     59,
@@ -30,7 +30,7 @@ void main() {
             backgroundColor: kColorScheme.primaryContainer,
           ),
         ),
-        textTheme: TextTheme().copyWith(
+        textTheme: const TextTheme().copyWith(
           titleLarge: TextStyle(
             fontWeight: FontWeight.normal,
             color: kColorScheme.secondaryContainer,
